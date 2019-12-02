@@ -1,0 +1,40 @@
+section {
+  min-height: 200px;
+  padding-top: 25px;
+  background-color: #363636;
+  border: 2px solid rgb(49, 26, 93);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color:rgb(190, 190, 190);
+}
+
+.project-Description {
+  padding: 0 25px;
+  border-bottom: 2px solid rgb(49, 26, 93);
+}
+
+.project-Container {
+  height: auto;
+}
+
+.header-Name {
+  color: white;
+  font-size: 24px;
+}
+
+.project-IMG {
+  width: 80%;
+  height: auto;
+  margin: 15px 0;
+  border: 3px solid rgb(173, 157, 201);
+}
+
+.ui-icon-jquery {
+  width: 35px;
+  height: auto;
+  filter: grayscale(100%);
+  margin-top:5px;
+}
+.fab {
+  font-size: 25px;
+}

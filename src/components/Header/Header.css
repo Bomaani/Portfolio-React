@@ -1,0 +1,31 @@
+.Header {
+  background-color: rgb(75, 75, 75);
+  border-bottom: 2px solid rgb(49, 26, 93);
+}
+
+.HeaderContainer:visited {
+  color: white;
+}
+.HeaderContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.Link {
+  color:white;
+  margin: 10px auto;
+  padding-right: 25px;
+}
+
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+  Header {
+    padding-top: 10%;
+  }
+}
