@@ -13,13 +13,7 @@ class About extends Component {
           season one! A project that won our team a Primetime Emmy Award for
           Interactive Web Design! I love programming and the challenges it
           brings. I'm a very critical thinker and tackle all of my problems head
-          on and without hesitation. When I am not programming, learning, or
-          trying to keep up with how fast the world of technology changes and
-          evolves, you can find me playing video games, listening to music and
-          going to shows, offroading in my old wrangler, or playing with the
-          dogs amongst other outdoor activities. I also love to garden and keep
-          my ever growing collection of plants happy and healthy, even the sassy
-          ones that dont like to be moved, watered, or touched often.
+          on and without hesitation.
         </p>
       </div>
     );
