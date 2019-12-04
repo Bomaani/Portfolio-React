@@ -6,7 +6,6 @@ class Resume extends Component {
   render() {
     return (
       <div className="ResumeContainer">
-        <h1>Resume</h1>
         <div class="resume-wrapper">
           <section class="profile section-padding">
             <div class="container">
@@ -32,18 +31,6 @@ class Resume extends Component {
                   a Full Stack Developer
                 </p>
               </div>
-              <div class="section-wrapper clearfix">
-                <h3 class="section-title">Skills</h3>
-                <ul>
-                  <li class="skill-percentage">HTML / HTML5</li>
-                  <li class="skill-percentage">CSS / CSS3 / SASS</li>
-                  <li class="skill-percentage">Javascript</li>
-                  <li class="skill-percentage">Jquery</li>
-                  <li class="skill-percentage">Express</li>
-                  <li class="skill-percentage">Node</li>
-                  <li class="skill-percentage">Adobe Creative Suite</li>
-                </ul>
-              </div>
 
               <div class="contact-info clearfix">
                 <ul class="list-titles">
@@ -55,6 +42,18 @@ class Resume extends Component {
                   <li>678-622-8075</li>
                   <li>BrockBoutwell@gmail.com</li>
                   <li>Asheville, North Carolina</li>
+                </ul>
+              </div>
+              <div class="section-wrapper clearfix">
+                <h3 class="section-title">Skills</h3>
+                <ul className="SkillList">
+                  <li class="skill-percentage">HTML / HTML5</li>
+                  <li class="skill-percentage">CSS / CSS3 / SASS</li>
+                  <li class="skill-percentage">Javascript / JQuery</li>
+                  <li class="skill-percentage">React / NPM</li>
+                  <li class="skill-percentage">Express / Mocha</li>
+                  <li class="skill-percentage">Node.js / PostgreSQL</li>
+                  <li class="skill-percentage">Jira / Slack / Git / Github</li>
                 </ul>
               </div>
               <div class="contact-presentation">
@@ -159,7 +158,7 @@ class Resume extends Component {
                   <div class="company-description">
                     <p>
                     - Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, j	Query, Node.js, React, Redux, and algorithms & data structures. <br />
-                    - Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.
+                    - Created and deployed mobile-first applications while learning new languages and frameworks by collaborating 20+ hours every week with an Industry Professional.
                     </p>
                   </div>
                 </div>
@@ -178,6 +177,22 @@ class Resume extends Component {
                       - SCAD Entelechy 2012 - 1st “Best Pre-Rendered Game Environment” <br />
                       - SCAD Entelechy 2013 -  1st “Best Game in Show”
 
+                    </p>
+                  </div>
+                </div>
+
+                <div class="company-wrapper clearfix">
+                  <div class="experience-title">Primetime Emmy Award</div>
+                  <div class="location">Atlanta, GA</div>
+                  <div class="time">July 2014</div>
+                </div>
+
+                <div class="job-wrapper clearfix">
+                  <div class="experience-title">Interactice Development</div>
+                  <div class="company-description">
+                    <p>
+                      - Game of Thrones Season 1-2 online viewers guide <br />
+                      - Primarly organized HTML, CSS, and content for the user expierence.
                     </p>
                   </div>
                 </div>

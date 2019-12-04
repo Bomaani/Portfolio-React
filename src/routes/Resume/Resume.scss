@@ -68,6 +68,9 @@ a {
   width: 97%;
   margin: 0 auto;
   margin-top: 25px;
+  h1 {
+    color: #66cc99;
+  }
 }
 
 .resume-wrapper {
@@ -84,6 +87,7 @@ a {
   background: $profileBg;
   width: 28%;
   float: left;
+  border: 2px solid #66cc99;
   margin-right: 2%;
   color: $profileColor;
   @include breakpoint(brother-bear) {
@@ -94,7 +98,7 @@ a {
     width: 60%;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: left;
     font-family: "Varela Round", sans-serif;
     color: $boldColor;
@@ -102,11 +106,13 @@ a {
     line-height: 1em;
     padding-top: 40px;
     @include breakpoint(mama-bear) {
-      padding-top: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0;
     }
     @include breakpoint(baby-bear) {
       font-size: 1.8em;
-      padding-top: 20px;
+      padding-top: 0;
     }
   }
   li {
@@ -165,22 +171,20 @@ a {
     margin-top: 10px;
     font-weight: 300;
     @include breakpoint(mama-bear) {
-      margin-top: 70px;
+      margin-top: 10px;
     }
     @include breakpoint(baby-bear) {
-      margin-top: 50px;
+      margin-top: 10px;
     }
   }
   .list-titles {
     float: left;
     text-align: left;
     font-weight: 600;
-    width: 40%;
     color: $boldColor;
   }
   .list-content {
     float: left;
-    width: 60%;
     text-align: left;
     font-weight: 300;
   }
@@ -190,12 +194,20 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     @include breakpoint(mama-bear) {
-      margin-top: 70px;
-      margin-bottom: 70px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     @include breakpoint(brother-bear) {
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .SkillList{
+    @include breakpoint(mama-bear) {
+      margin-right: 20px;
+    }
+    @include breakpoint(brother-bear) {
+      margin-right: 20px;
     }
   }
   svg {
@@ -216,6 +228,7 @@ a {
   width: 70%;
   float: left;
   position: relative;
+  border: 2px solid #66cc99;
   color: $skillsColor;
   font-weight: 300;
   min-height: 100%;
@@ -265,12 +278,12 @@ a {
     padding: 15px 15% 15px 10%;
   }
   @include breakpoint(baby-bear) {
-    padding: 15px 10% 15px 5%;
+    padding: 5%;
   }
 }
 
 .section-wrapper {
-  width: 90%;
+  width: 95%;
   float: left;
   text-align: left;
   color: $skillsColor;
@@ -288,6 +301,7 @@ a {
     text-transform: uppercase;
     font-size: 1.2em;
     margin-bottom: 20px;
+    margin-top: 0;
     font-weight: 400;
   }
   .skill-percentage {
@@ -323,11 +337,11 @@ a {
       animation: skill_3 $time ease;
     }
     &:nth-child(4)::before {
-      width: 50%;
+      width: 75%;
       animation: skill_4 $time ease;
     }
     &:nth-child(5)::before {
-      width: 80%;
+      width: 70%;
       animation: skill_5 $time ease;
     }
     &:nth-child(6)::before {
@@ -335,7 +349,7 @@ a {
       animation: skill_6 $time ease;
     }
     &:nth-child(7)::before {
-      width: 50%;
+      width: 85%;
       animation: skill_6 $time ease;
     }
   }
@@ -362,7 +376,7 @@ a {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 60%;
   }
 }
 @keyframes skill_4 {
@@ -370,7 +384,7 @@ a {
     width: 0%;
   }
   to {
-    width: 60%;
+    width: 75%;
   }
 }
 @keyframes skill_5 {
@@ -394,6 +408,6 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 85%;
   }
 }

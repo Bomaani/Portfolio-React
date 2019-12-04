@@ -1,6 +1,6 @@
 .Header {
   background-color: rgb(75, 75, 75);
-  border-bottom: 2px solid rgb(49, 26, 93);
+  border-bottom: 2px solid #66cc99;
 }
 
 .HeaderContainer:visited {
@@ -24,6 +24,6 @@
   color: white;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 750px) {
 
 }

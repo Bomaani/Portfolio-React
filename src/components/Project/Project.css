@@ -2,7 +2,7 @@ section {
   min-height: 200px;
   padding-top: 25px;
   background-color: #363636;
-  border: 2px solid rgb(49, 26, 93);
+  border: 2px solid #66cc99;
   border-radius: 3px;
   margin-bottom: 20px;
   color:rgb(190, 190, 190);
@@ -10,11 +10,16 @@ section {
 
 .project-Description {
   padding: 0 25px;
-  border-bottom: 2px solid rgb(49, 26, 93);
+  border-bottom: 2px solid #66cc99;
 }
 
 .project-Container {
   height: auto;
+}
+
+.project-Container h3 {
+  font-size: 30px;
+  margin: 10px auto;
 }
 
 .header-Name {

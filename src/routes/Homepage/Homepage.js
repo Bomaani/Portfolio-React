@@ -10,7 +10,7 @@ class Hompage extends Component {
     return (
       <div className="HomepageContainer">
         <Intro />
-        <Projects />
+        <Projects id="Projects"/>
         <About />
       </div>
     );

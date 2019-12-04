@@ -7,8 +7,8 @@ class About extends Component {
       <div className="AboutContainer">
         <h3>Wanna know a little bit more about me?</h3>
         <p>
-          I am currently a front end developer and graduate from the Savannah
-          College of Art and Design. I've gotten many opportunities to work on
+          I am currently a Front End Developer and graduate from the Savannah
+          College of Art and Design and Thinkful. I've gotten many opportunities to work on
           amazing projects such as the HBO Game of Thrones viewers guide in
           season one! A project that won our team a Primetime Emmy Award for
           Interactive Web Design! I love programming and the challenges it
