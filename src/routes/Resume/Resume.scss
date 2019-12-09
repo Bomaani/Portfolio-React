@@ -42,6 +42,21 @@ body {
   height: 100%;
 }
 
+.list-titles img {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+}
+.list-titles {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+.control-dots {
+  padding-left: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -148,10 +163,12 @@ a {
       width: 130px;
       @include breakpoint(papa-bear) {
         width: 80px;
+        padding: 0;
       }
       @include breakpoint(mama-bear) {
         width: 120px;
         height: 120px;
+        padding: 0;
       }
     }
     @include breakpoint(papa-bear) {
@@ -187,6 +204,7 @@ a {
     float: left;
     text-align: left;
     font-weight: 300;
+    margin: 0 auto;
   }
   .contact-presentation {
     text-align: left;
@@ -325,7 +343,7 @@ a {
       bottom: 0;
     }
     &:nth-child(1)::before {
-      width: 80%;
+      width: 85%;
       animation: skill_1 $time ease;
     }
     &:nth-child(2)::before {
@@ -333,7 +351,7 @@ a {
       animation: skill_2 $time ease;
     }
     &:nth-child(3)::before {
-      width: 60%;
+      width: 70%;
       animation: skill_3 $time ease;
     }
     &:nth-child(4)::before {
@@ -345,7 +363,7 @@ a {
       animation: skill_5 $time ease;
     }
     &:nth-child(6)::before {
-      width: 70%;
+      width: 65%;
       animation: skill_6 $time ease;
     }
     &:nth-child(7)::before {
@@ -360,7 +378,7 @@ a {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 85%;
   }
 }
 @keyframes skill_2 {
@@ -376,7 +394,7 @@ a {
     width: 0%;
   }
   to {
-    width: 60%;
+    width: 70%;
   }
 }
 @keyframes skill_4 {
@@ -400,7 +418,7 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 65%;
   }
 }
 @keyframes skill_7 {

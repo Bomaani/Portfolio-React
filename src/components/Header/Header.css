@@ -1,6 +1,14 @@
 .Header {
   background-color: rgb(75, 75, 75);
   border-bottom: 2px solid #66cc99;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Header h3 {
+  margin: 10px;
+  padding-right: 50px;
 }
 
 .HeaderContainer:visited {
@@ -11,8 +19,18 @@
   text-decoration: none;
 }
 
+.HeaderContainer a:hover {
+  text-decoration: none;
+}
+
 .Link {
   color:white;
+  margin: 10px auto;
+  padding-right: 25px;
+}
+
+.Link:hover {
+  color:#66cc99;
   margin: 10px auto;
   padding-right: 25px;
 }
@@ -24,6 +42,10 @@
   color: white;
 }
 
-@media only screen and (min-width: 750px) {
-
+@media only screen and (max-width: 750px) {
+  .Header h3 {
+    margin: 10px;
+    padding-right: 50px;
+    font-size: 1em;
+  }
 }

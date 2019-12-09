@@ -6,20 +6,33 @@ section {
   border-radius: 3px;
   margin-bottom: 20px;
   color:rgb(190, 190, 190);
+  width: 97%;
+  margin: 0 auto;
+}
+
+.CarouselBox {
+  width: 90%;
+  margin: 15px auto;
+}
+
+.thumbs-wrapper {
+  display: none;
 }
 
 .project-Description {
-  padding: 0 25px;
   border-bottom: 2px solid #66cc99;
+  padding: 15px;
 }
 
 .project-Container {
   height: auto;
+  margin-bottom: 15px;
 }
 
 .project-Container h3 {
   font-size: 30px;
   margin: 10px auto;
+  color: #66cc99;
 }
 
 .header-Name {
@@ -31,7 +44,6 @@ section {
   width: 80%;
   height: auto;
   margin: 15px 0;
-  border: 3px solid rgb(173, 157, 201);
 }
 
 .ui-icon-jquery {
@@ -42,4 +54,11 @@ section {
 }
 .fab {
   font-size: 25px;
+}
+
+@media only screen and (min-width: 750px) {
+  section {
+    width: 70%;
+    margin: 0 auto;
+  }
 }

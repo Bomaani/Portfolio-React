@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Image from "../../images/profile.jpg";
+import LIImage from '../../images/linkedin.svg';
+import GHImage from '../../images/github.svg';
+
 import "./Resume.scss";
+
 
 class Resume extends Component {
   render() {
@@ -58,21 +62,21 @@ class Resume extends Component {
               </div>
               <div class="contact-presentation">
                 <p>
-                  <span class="bold">Hire me!</span> If you like what you see
-                  hit me up above or see what else I can below!{" "}
+                  <span class="bold">Contact me!</span> If you like what you see
+                  hit me up above or see what else I can do below!{" "}
                 </p>
               </div>
               <div class="contact-social clearfix">
                 <ul class="list-titles">
-                  <li>LinkedIn</li>
-                  <li>Github</li>
+                  <li><img src={LIImage} alt="linkedin"/></li>
+                  <li><img src={GHImage} alt="linkedin"/></li>
                 </ul>
                 <ul class="list-content">
                   <li>
-                    <a href="https://www.linkedin.com/in/brock-boutwell/">Icon</a>
+                    <a href="https://www.linkedin.com/in/brock-boutwell/">linkedin.com/in/brock-boutwell/</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Bomaani">Icon</a>
+                    <a href="https://github.com/Bomaani">github.com/Bomaani</a>
                   </li>
                 </ul>
               </div>
@@ -115,7 +119,7 @@ class Resume extends Component {
                   <div class="company-description">
                     <p>
                       - Created and Designed a Mobile-first web experience with
-                      new technologies like Bootstrap.
+                      new technologies like Bootstrap/HTML5/CSS3/JavaScript
                       <br />
                       - Tested and Created web pages daily to be fully
                       functional on all devices available.
@@ -128,7 +132,7 @@ class Resume extends Component {
                 </div>
 
                 <div class="company-wrapper clearfix">
-                  <div class="experience-title">Defintion 6</div>
+                  <div class="experience-title">Definition 6</div>
                   <div class="location">Atlanta, GA</div>
                   <div class="time">Sep 2014 - Sep 2015</div>
                 </div>
@@ -138,7 +142,8 @@ class Resume extends Component {
                   <div class="company-description">
                     <p>
                       - Created Email Campaigns for clients like Barnes & Noble
-                      College and Tensar. <br />- Created Templates for use to
+                      College and Tensar. HTML/CSS 
+                      <br />- Created Templates for use to
                       build out our emails faster and send them out faster.
                     </p>
                   </div>
@@ -157,7 +162,7 @@ class Resume extends Component {
                   <div class="experience-title">Full Stack Immersion</div>
                   <div class="company-description">
                     <p>
-                    - Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, j	Query, Node.js, React, Redux, and algorithms & data structures. <br />
+                    - Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures. <br />
                     - Created and deployed mobile-first applications while learning new languages and frameworks by collaborating 20+ hours every week with an Industry Professional.
                     </p>
                   </div>
@@ -170,7 +175,7 @@ class Resume extends Component {
                 </div>
 
                 <div class="job-wrapper clearfix">
-                  <div class="experience-title">Interactice Development & Game Design</div>
+                  <div class="experience-title">Interactive Development & Game Design</div>
                   <div class="company-description">
                     <p>
                       - Academic Honors 2009-2013, 3.7 Cumulative GPA<br />
@@ -188,11 +193,11 @@ class Resume extends Component {
                 </div>
 
                 <div class="job-wrapper clearfix">
-                  <div class="experience-title">Interactice Development</div>
+                  <div class="experience-title">Interactive Development</div>
                   <div class="company-description">
                     <p>
                       - Game of Thrones Season 1-2 online viewers guide <br />
-                      - Primarly organized HTML, CSS, and content for the user expierence.
+                      - Primarily organized HTML, CSS, and content for the user experience.
                     </p>
                   </div>
                 </div>
@@ -210,7 +215,7 @@ class Resume extends Component {
 
                 <p>
                   I also love to garden and keep my ever growing collection of
-                  plants happy and healthy, even the sassy ones that dont like
+                  plants happy and healthy, even the sassy ones that don't like
                   to be moved, watered, or touched often.
                 </p>
               </div>

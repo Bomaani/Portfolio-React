@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+//import Footer from "../Footer/Footer";
 import Homepage from "../../routes/Homepage/Homepage";
 import Resume from "../../routes/Resume/Resume";
 import NotFoundRoute from "../../routes/NotFoundRoute/NotFoundRoute";
@@ -19,7 +19,7 @@ export default class App extends Component {
             <Route component={NotFoundRoute} />
           </Switch>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

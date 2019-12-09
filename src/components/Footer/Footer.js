@@ -9,10 +9,9 @@ class Footer extends Component {
       <div className="Footer">
         <div className="FooterContainer">
         <span class="hire-Me">Hire me!</span><br />
-        <Link href="mailto:brockboutwell@gmail.com"><i title="Email Me Here" class="contact-Icon fas fa-envelope"></i></Link>
-        <Link href="https://github.com/Bomaani"><i title="Github Repo" class="contact-Icon fab fa-github"></i></Link>
-        <Link href="https://www.linkedin.com/in/brock-boutwell/"><i title="LinkedIn" class="contact-Icon fab fa-linkedin"></i></Link>
-        <Link href="/Files/BoutwellBrock2018Resume.pdf"><i title="Download Resume" class="contact-Icon fas fa-file"></i></Link> 
+        <Link to="/resume">Resume</Link>
+        <Link href="https://github.com/Bomaani">Github</Link>
+        <Link href="https://www.linkedin.com/in/brock-boutwell/">Linkedin</Link>
         </div>
       </div>
     );
