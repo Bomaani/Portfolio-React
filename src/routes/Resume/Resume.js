@@ -73,7 +73,7 @@ class Resume extends Component {
                 </ul>
                 <ul class="list-content">
                   <li>
-                    <a href="https://www.linkedin.com/in/brock-boutwell/">linkedin.com/in/brock-boutwell/</a>
+                    <a href="https://www.linkedin.com/in/brock-boutwell/">linkedin/brock-boutwell/</a>
                   </li>
                   <li>
                     <a href="https://github.com/Bomaani">github.com/Bomaani</a>

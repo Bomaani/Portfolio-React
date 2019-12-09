@@ -32,7 +32,6 @@
 .Link:hover {
   color:#66cc99;
   margin: 10px auto;
-  padding-right: 25px;
 }
 
 .HeaderContainer {
@@ -45,7 +44,12 @@
 @media only screen and (max-width: 750px) {
   .Header h3 {
     margin: 10px;
-    padding-right: 50px;
+    padding-right: 5px;
     font-size: 1em;
+  }
+  .Link {
+    color:white;
+    margin: 10px auto;
+    padding-right: 5px;
   }
 }
