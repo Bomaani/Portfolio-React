@@ -183,7 +183,7 @@ class Project extends Component {
               </p>
             </div>
             <p className="project-Description">
-              This app allows a user is able to navigate through a set of
+              This app allows a user to navigate through a set of
               questions and is given feedback depending on the outcome of the
               quiz. The user also has the ability to restart the quiz and try
               again.
