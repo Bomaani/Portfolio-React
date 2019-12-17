@@ -44,20 +44,20 @@ class Resume extends Component {
                 </ul>
                 <ul class="list-content ">
                   <li>678-622-8075</li>
-                  <li>BrockBoutwell@gmail.com</li>
+                  <li><a href="mailto:BrockBoutwell@gmail.com">BrockBoutwell@gmail.com</a></li>
                   <li>Asheville, North Carolina</li>
                 </ul>
               </div>
               <div class="section-wrapper clearfix">
                 <h3 class="section-title">Skills</h3>
-                <ul className="SkillList">
-                  <li class="skill-percentage">HTML / HTML5</li>
-                  <li class="skill-percentage">CSS / CSS3 / SASS</li>
-                  <li class="skill-percentage">Javascript / JQuery</li>
-                  <li class="skill-percentage">React / NPM</li>
-                  <li class="skill-percentage">Express / Mocha</li>
-                  <li class="skill-percentage">Node.js / PostgreSQL</li>
-                  <li class="skill-percentage">Jira / Slack / Git / Github</li>
+                <ul className="Next">
+                  <li class="">HTML / HTML5 / Bootstrap</li>
+                  <li class="">CSS / CSS3 / SASS </li>
+                  <li class="">Javascript / JQuery / SQL</li>
+                  <li class="">React / NPM</li>
+                  <li class="">Heroku / Ziet</li>
+                  <li class="">Express / Node.js / PostgreSQL</li>
+                  <li class="">Jira / Slack / Git / Github / CL</li>
                 </ul>
               </div>
               <div class="contact-presentation">

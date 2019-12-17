@@ -10,9 +10,22 @@ section {
   margin: 0 auto;
 }
 
-.CarouselBox {
+.ContainerRight {
   width: 90%;
-  margin: 15px auto;
+  margin: 15px;
+  margin-right: 5%;
+}
+
+.CarouselBox {
+  width: 40%;
+  margin: 15px 5%;
+  display: none;
+}
+
+.carousel {
+  max-width: 600px;
+  width: auto !important;
+  margin: 0 auto;
 }
 
 .thumbs-wrapper {
@@ -27,6 +40,15 @@ section {
 .project-Container {
   height: auto;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CarouselBoxMobile {
+  display: flex;
+  width: 90%;
+  margin: 15px 5%;
 }
 
 .project-Container h3 {
@@ -40,10 +62,20 @@ section {
   font-size: 24px;
 }
 
-.project-IMG {
-  width: 80%;
+.project-IMG-Mobile {
   height: auto;
-  margin: 15px 0;
+  margin: 15px 5%;
+  max-width: 600px;
+  width: 90%;
+  display: flex;
+}
+
+.project-IMG {
+  height: auto;
+  margin: 15px 5%;
+  max-width: 600px;
+  width: 80%;
+  display: none;
 }
 
 .ui-icon-jquery {
@@ -55,10 +87,53 @@ section {
 .fab {
   font-size: 25px;
 }
+.CarouselBoxTop {
+  margin: 15px 5%;
+}
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 850px) {
   section {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
+  }
+
+  .CarouselBox {
+    width: 40%;
+    margin: 15px 5%;
+    display: block;
+  }
+
+  .project-Container {
+    height: auto;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .CarouselBoxMobile {
+    display: none;
+  }
+
+  .project-IMG-Mobile {
+    height: auto;
+    margin: 15px 5%;
+    max-width: 600px;
+    width: 90%;
+    display: none;
+  }
+  
+  .project-IMG {
+    height: auto;
+    margin: 15px 5%;
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+  }
+
+  .ContainerRight {
+    width: 60%;
+    margin: 15px;
+    margin-right: 5%;
   }
 }
