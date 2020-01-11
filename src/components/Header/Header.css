@@ -29,6 +29,14 @@
   padding-right: 25px;
 }
 
+.Link:active {
+  color: #66cc99;
+}
+
+.HeaderContainer a:active {
+  color: #66cc99;
+}
+
 .Link:hover {
   color:#66cc99;
   margin: 10px auto;

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Image from "../../images/profile.jpg";
 import LIImage from '../../images/linkedin.svg';
 import GHImage from '../../images/github.svg';
+import GDImage from '../../images/gdocs.svg';
+
 
 import "./Resume.scss";
 
@@ -68,8 +70,9 @@ class Resume extends Component {
               </div>
               <div class="contact-social clearfix">
                 <ul class="list-titles">
-                  <li><img src={LIImage} alt="linkedin"/></li>
-                  <li><img src={GHImage} alt="linkedin"/></li>
+                  <li className="ResumeIcon"><img src={LIImage} alt="linkedin"/></li>
+                  <li className="ResumeIcon"><img src={GHImage} alt="Github"/></li>
+                  <li className="ResumeIcon"><img src={GDImage} alt="GoogleDocs"/></li>
                 </ul>
                 <ul class="list-content">
                   <li>
@@ -77,6 +80,9 @@ class Resume extends Component {
                   </li>
                   <li>
                     <a href="https://github.com/Bomaani">github.com/Bomaani</a>
+                  </li>
+                  <li>
+                    <a href="https://docs.google.com/document/d/1zIIIZt20VZO0ti-OikYPVnsf2A9WnlmpgS0LL4cO-vk/edit?usp=sharing">Resume'</a>
                   </li>
                 </ul>
               </div>
@@ -126,7 +132,7 @@ class Resume extends Component {
                       <br />
                       - Helped Rebuild our front end for the client side
                       in-store systems to be more user friendly.
-                      <br />- Created and sent out Email campaigns.
+                      <br />- Created and sent out marketing email campaigns for Pull-A-Part.
                     </p>
                   </div>
                 </div>
@@ -179,8 +185,8 @@ class Resume extends Component {
                   <div class="company-description">
                     <p>
                       - Academic Honors 2009-2013, 3.7 Cumulative GPA<br />
-                      - SCAD Entelechy 2012 - 1st “Best Pre-Rendered Game Environment” <br />
-                      - SCAD Entelechy 2013 -  1st “Best Game in Show”
+                      - SCAD Entelechy 2012 - 1st out of 25 “Best Pre-Rendered Game Environment” <br />
+                      - SCAD Entelechy 2013 -  1st out of 10 “Best Game in Show”
 
                     </p>
                   </div>

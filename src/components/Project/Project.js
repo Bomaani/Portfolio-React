@@ -38,7 +38,7 @@ class Project extends Component {
             </Carousel>
             <div className="ContainerRight">
               <div>
-                <span className="header-Name">Tech Used</span>
+                <p className="header-Name">Tech Used</p>
                 <br />
                 <p>
                   HTML, SCSS, CSS, React, Context,
@@ -102,7 +102,7 @@ class Project extends Component {
             </Carousel>
             <div className="ContainerRight">
               <div>
-                <span className="header-Name">Tech Used</span>
+                <p className="header-Name">Tech Used</p>
                 <br />
                 <p>
                   HTML / HTML5, CSS / CSS3, React,
@@ -158,7 +158,7 @@ class Project extends Component {
             </Carousel>
             <div className="ContainerRight">
               <div>
-                <span className="header-Name">Tech Used</span>
+                <p className="header-Name">Tech Used</p>
                 <br />
                 <p>
                   HTML, CSS, JSX, React, Context,
@@ -230,7 +230,7 @@ class Project extends Component {
             </a>
             <div className="ContainerRight">
               <div>
-                <span className="header-Name">Tech Used</span>
+                <p className="header-Name">Tech Used</p>
                 <br />
                 <p>
                   HTML / HTML5, CSS,
@@ -267,7 +267,7 @@ class Project extends Component {
             </a>
             <div className="ContainerRight">
             <div>
-              <span className="header-Name">Tech Used</span>
+              <p className="header-Name">Tech Used</p>
               <br />
               <p>
                 HTML / HTML5, CSS / CSS3,
